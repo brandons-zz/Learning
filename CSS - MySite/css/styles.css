@@ -1,0 +1,174 @@
+/************** HTML Styles *****************/
+html {
+  font-size: 1em;
+}
+
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 5.62rem;
+  line-height: .75;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+/************** Class Styles *****************/
+.div-top {
+  background-color: #EAF6F6;
+  padding: 100px 20px 0 20px;
+  position: relative;
+}
+
+.h2-subtitle {
+  font-size: 2.5rem;
+}
+
+.content {
+  max-width:1180px;
+  margin:auto;
+}
+
+.div-middle {}
+
+.div-bottom {
+  background-color: #66BFBF;
+  margin-top:30px;
+  padding: 50px 0 20px;
+}
+
+.div-bottom a {
+  color: #11999E;
+  margin: 0 25px;
+}
+
+.div-bottom p {
+  color: white;
+  font-size: .75rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.div-hello {
+  margin-top: 50px;
+}
+
+.img-top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.img-bottom-cloud {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+.profile {
+  margin-top: 50px;
+}
+
+.p-intro {
+  width: 30%;
+  margin: auto;
+}
+
+.profile img {
+  border-radius: 10px;
+  width: 15%;
+}
+
+.hr-dotted {
+  border-style: none;
+  border-top: 5px dotted lightgray;
+  margin: 50px auto;
+  width: 8%;
+}
+
+.skill-row {
+  float: none;
+  margin: 70px auto;
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+}
+
+.img-leader {
+  border-radius: 10px;
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.img-computer {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 40px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3de3cb;
+  background-image: -webkit-linear-gradient(top, #3de3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #3de3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #3de3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #3de3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #3de3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #eaeaf6;
+}
+
+/************** ID Styles *****************/
