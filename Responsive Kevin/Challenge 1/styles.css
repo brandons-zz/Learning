@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.parent {
+    background-color: #24524a;
+    padding: 50px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.child {
+    background-color: #38cfd9;
+
+    /* This height is only to give us a starting point. */
+    width: 750px;
+    height: 250px;
+}

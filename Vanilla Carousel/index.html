@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Vanilla JS Carousel</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <script src="https://kit.fontawesome.com/849de3d82a.js" crossorigin="anonymous"></script> -->
+    <script
+      src="https://kit.fontawesome.com/20c08ce111.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="carousel">
+      <button class="carousel__button carousel__button--left is-hidden">
+        <i class="fa-regular fa-circle-arrow-left fa-2x"></i>
+      </button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <img class="carousel__image" src="./img/slide-1.jpeg" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="./img/slide-2.jpeg" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="./img/slide-3.jpeg" alt="" />
+          </li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button--right">
+        <i class="fa-regular fa-circle-arrow-right fa-2x"></i>
+      </button>
+      <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+      </div>
+    </div>
+    <script src="js/carousel.js" async defer></script>
+  </body>
+</html>
