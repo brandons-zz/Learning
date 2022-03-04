@@ -1,0 +1,66 @@
+@import './resets';
+@import './variables';
+
+/* Funtions should be used to compute and return values */
+@function weight($weight-name) {
+    @return map-get($font-weights, $weight-name );
+}
+
+/* mixins should be used to define styles */
+@mixin flexCenter ($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin theme($light-theme: true) {
+    @if $light-theme {
+        background: lighten($primary-color,100%);
+        color: darken($text-color, 100%);
+    }
+}
+
+@mixin mobile{
+    @media (max-width: $mobile) {
+        @content;
+    }
+}
+
+
+body{
+    background: $primary-color; 
+    color: $text-color;
+}
+
+.main {
+    @include flexCenter(row);
+    width:80%;
+    margin: 0 auto;
+    
+
+    #{&}__paragraph1 {
+        font-weight: weight(regular);
+        padding: .5em 1em;
+        &:hover {
+            color:$accent-color;
+        }
+    }
+
+    #{&}__paragraph2 {
+        @extend .main__paragraph1;
+
+        &:hover{
+            color:red;
+        }
+    }
+
+    @include mobile {
+        flex-direction: column;
+    }
+} 
+
+
+.light {
+    @include theme($light-theme: true);
+}

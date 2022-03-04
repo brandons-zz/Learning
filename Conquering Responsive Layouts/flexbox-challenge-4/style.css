@@ -1,0 +1,131 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+    margin-top:0;
+}
+
+.fs1 {
+    font-size: 3em;
+}
+
+.fs2 {
+    font-size: 2.5em;
+}
+
+.fs3 {
+    font-size:  2em;
+}
+
+.fs4 {
+    font-size: 2.5em;
+}
+
+.fs5 {
+    font-size: 2em;
+}
+
+.fs6 {
+    font-size:  1.5em;
+}
+
+.bgColor-tan
+ {
+    background: #F3EED9;
+    
+}
+.textColor-tan {
+    color: #F3EED9;
+}
+
+.bgColor-brown {
+    background: #824936;
+}
+
+.textColor-brown {
+    color:#824936
+}
+
+.bgColor-black {
+    background: #000;
+}
+
+.textColor-black {
+    color: #000;
+}
+
+.bgColor-white {
+    background: #fff;
+}
+
+.textColor-white {
+    color: #fff;
+}
+/* Layout Configuration */
+
+section {
+    padding: 3em 0;
+    min-height: 400px;
+}
+
+.hero {
+    padding: 8.5em;
+}
+
+.container {
+    max-width:1128px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__content {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero__content p {
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+
+.designs__content p{
+    padding: 0 1em;
+}
+
+.designs__content h3{
+    text-align: center;
+}
+
+.customMade__content--left,
+.createdWithCare__content--left
+ {
+    width: 48%;
+}
+.customMade__content--right,
+.createdWithCare__content--right {
+    width: 48%;
+}

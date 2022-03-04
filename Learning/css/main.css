@@ -1,0 +1,39 @@
+/*# sourceMappingURL=main.css.map */in: 0;
+  padding: 0;
+}
+
+/* Funtions should be used to compute and return values */
+/* mixins should be used to define styles */
+body {
+  background: #272727;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+.main .main__paragraph1, .main .main__paragraph2 {
+  font-weight: 400;
+  padding: 0.5em 1em;
+}
+.main .main__paragraph1:hover, .main .main__paragraph2:hover {
+  color: #ff652f;
+}
+.main .main__paragraph2:hover {
+  color: red;
+}
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+.light {
+  background: white;
+  color: black;
+}/*# sourceMappingURL=main.css.map */
