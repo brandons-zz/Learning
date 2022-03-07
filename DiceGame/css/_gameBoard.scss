@@ -1,0 +1,27 @@
+.gameBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .dice__card {
+        padding: 40px;
+
+        .dice__card--name {
+
+            padding-bottom: 1em;
+            text-align: center;
+            color: $greenColor;
+        }
+
+        img {
+            max-width: 200px;
+            @include transition-ease-slow;
+        }
+
+        .active {
+            @include transition-ease;
+            transform: rotate(720deg);
+        }
+
+    }
+}

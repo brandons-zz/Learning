@@ -1,0 +1,54 @@
+$greenColor: #50c172;
+$bodyColor: #4d4c4c;
+$footerText: #c7c7c7;
+$footerTextHover: #d87905;
+
+@mixin transition-ease-none {
+    transition: all 0.0s ease-in-out;
+}
+
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out;
+}
+
+@mixin transition-ease-slow {
+    transition: all 1.5s ease-in-out;
+}
+
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+h4 {
+    font-size: 2.5em;
+}
+
+h5 {
+    font-size: 2em;
+}
+
+h6 {
+    font-size: 1.5em;
+}
+
+body {
+    background-color: $bodyColor;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.notVisible {
+    visibility: hidden;
+}

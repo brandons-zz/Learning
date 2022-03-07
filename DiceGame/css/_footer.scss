@@ -1,0 +1,30 @@
+.footerLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    position: fixed;
+    bottom: 0.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem;
+
+    a {
+        text-decoration: none;
+        color: $footerText;
+      @include transition-ease;
+      
+        &:hover {
+            color: $footerTextHover;
+        }
+
+        img {
+            max-width:20px;
+            @include transition-ease;
+
+            &:hover {
+                transform: rotate(720deg);
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+
+.header {
+    display: flex;
+    justify-content: center;
+
+    img {
+        max-width: 150px;
+    }
+
+    h1 {
+        color: $greenColor;
+        margin: auto 0;
+        font-family: 'Praise', cursive;
+    }
+}
